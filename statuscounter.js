@@ -29,4 +29,3 @@ class FriendStatusWithCounter extends React.Component {
         isOnline: status.isOnline
       });
     }
-    // ...
