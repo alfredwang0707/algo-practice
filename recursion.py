@@ -5,7 +5,7 @@ def shortest():
 # stack is first in last out , like a stack of cards
 # add to the top of the stack => pushing
 # removing from the top of the stacked => popping
-
+# tail recursion / rabit hole? 
 spam = []
 spam.append('alice')
 spam.append('bob')
@@ -13,6 +13,14 @@ spam.append('carol'
 spam.pop()
 >>>'carol')
 spam => ['alice', 'bob']
+
+def countdown(i):
+    print i
+    if i <= 1: #base case
+        return
+    else:
+    countdown(i-1)  #recursive case
+
 
 Factorial
 
