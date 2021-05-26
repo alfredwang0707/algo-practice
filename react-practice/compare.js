@@ -52,7 +52,7 @@ function compareTriplets(a, b) {
     }
     return points;
 }
-// could this be faster?
+// could this be faster?t
 
 function compareTriplets(a, b) {
     // Write your code here
