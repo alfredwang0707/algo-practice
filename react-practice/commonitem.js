@@ -18,6 +18,9 @@ function containsCommonItem(arr1,arr2){
     return false
 }
 
+// O (1) space complexity
+
+
 //  
 //0(a * b)
 // array1 ==> obj{
@@ -47,6 +50,21 @@ function containsCommonItem2(arr1,arr2){
         }
     }
     return false
-}
-
+} 
 //O (a + b) Time Complexity
+//O(A) space complexity
+// faster but heavy on space
+
+
+
+// edge cases // how can this break // ? 
+
+// null in array ? strings? integers? 
+
+function containsCommonItems3(arr1,arr2){
+    return arr1.some(item => arr2.includes(item)
+    // check 1st array if some of them include, return true/false
+    // built in method in js / readibility
+    //  is this clean / readable and easy to pick up ?
+    // small pieces of code that does one thing
+}
