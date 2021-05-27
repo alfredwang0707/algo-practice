@@ -20,10 +20,10 @@ function hasPairWithSum2(arr,sum) {
     for(let i = 0; i < len; i++){
         if(mySet.has(arr[i])){
             return true
-        }
+        } 
         mySet.add(sum - arr[i])
     }
     return false
 }
 
-hasPairWithSum2
+hasPairWithSum2  
