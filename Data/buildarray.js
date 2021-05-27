@@ -47,3 +47,5 @@ console.log(newArray.get(0));
 // undefine , becuz theres nothing
 
 
+// string = array of characters
+// change string into array, return it as a string after operations
