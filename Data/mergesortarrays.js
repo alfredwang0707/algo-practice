@@ -31,4 +31,10 @@ function mergeSortedArrays(array1, array2){
     return mergedArray
 }
 
-// m ergeSortedArrays([0,3,4,31], [4,6,30])
+// mergeSortedArrays([0,3,4,31], [4,6,30])
+
+// arrays
+// fast lookups, fast push/pop
+// ordered
+
+//slow inserts, slow deltes, fixed size (if static array)
