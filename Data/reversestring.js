@@ -10,7 +10,7 @@ function reverse(str){
  const backwards = []
  const totalItems = str.length - 1 
  for(let i = totalItems; i >= 0;i--){
-     // from the lngth of string, all the way back, insert into array 1 by 1
+     // from the length of string, all the way back, insert into array 1 by 1
     backwards.push(str[i])
  }
  return backwards.join('')
